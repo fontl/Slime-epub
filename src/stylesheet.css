@@ -1,0 +1,42 @@
+span.helper
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+div
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h4
+{
+    text-align:left;
+}
+
+p
+{
+    color:#000000;
+    text-align: left;
+}
+
+p.chapter
+{
+    text-indent: 50px;
+}
+
+p.notes
+{
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
