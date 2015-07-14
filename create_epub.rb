@@ -216,9 +216,9 @@ names.each do |x,y|
     else
       t.puts File.read('src/chapterextra'+y.gsub(' ','')+'.txt')
     end
+    t.print "        </div>\n    </body>\n</html>"
+    t.close
   end
-  t.print "        </div>\n    </body>\n</html>"
-  t.close
 end
 
 # Zip Files
