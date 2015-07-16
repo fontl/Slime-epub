@@ -4,6 +4,41 @@ span.helper
     height: 100%;
     vertical-align: middle;
 }
+body
+{
+    margin:0;
+    padding: 0;
+    border-width: 0;
+}
+div
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1,h2,h4
+{
+    font-weight: normal;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+p
+{
+    color: #000000;
+    text-align: left;
+}
 
 div
 {
@@ -12,31 +47,20 @@ div
     height: 100%;
 }
 
-h4
+div.inline
 {
-    text-align:left;
+    page-break-after: always;
+    margin: 0.5em 0 0.5em 0;
+    text-indent: 0;
+    text-align: center;
+    clear: both;
 }
-
-p
+div.inline img 
 {
-    color:#000000;
-    text-align: left;
-}
-
-p.chapter
-{
-    text-indent: 50px;
-}
-
-p.notes
-{
-    font-style: italic;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-a
-{
-    color: #000000;
-    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
 }
